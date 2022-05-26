@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>NBM Japan LLC</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow  border-primary sticky-top p-0">
+        <a href="index.html" class="navbar-brand  d-flex align-items-center px-4 px-lg-5">
+            <img style="width:100px"  src="./img/logo.png" alt="">
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link active lang" key="home">Home</a>
+                <a href="about.html" class="nav-item nav-link lang" key="about">About Us</a>
+                <div class="nav-item dropdown">
+                <a href="service.html" class="nav-link dropdown-toggle lang" key="services" data-bs-toggle="dropdown">Our Services</a>
+                <div class="dropdown-menu fade-up m-0" >
+                    <a href="usedparts.html" class="dropdown-item lang" key="parts">New and Used Parts</a>
+                    <a href="lubricants.html" class="dropdown-item lang" key="lubricants">All Types of Lubricants</a>
+                    <a href="tires.html" class="dropdown-item lang" key="tires">New and Used Tires</a>
+                    <a href="shopping.html" class="dropdown-item lang" key="shopping">Japan Shopping Service</a>
+                    <a href="logistics.html" class="dropdown-item lang" key="logistics">Logistics Service</a>
+                    <a href="consulting.html" class="dropdown-item lang" key="consulting">Consulting services</a>
+                </div>
+                 </div>
+                <a href="contact.html" class="nav-item nav-link lang" key="contact">Contact</a>
+            </div>
+           <a href="https://wa.me/819095427552"><h4 class="m-0 pe-lg-2 d-none d-lg-block"><i class="bi bi-whatsapp text-primary me-3"></i>+81 90-9542-7552</h4></a>
+           <p class="header-item-lang-en"><button id="en" class="translate"><img width="40px" height="30px" src="./img/english.png" alt=""></button></p>
+           <p class="header-item-lang-ru"><button id="ru" class="translate"><img width="40px" height="30px" src="./img/russian.jpeg" alt=""></button></p>
+        </div>
+    </nav>
+       
+    <!-- Navbar End -->
+
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 pb-5">
+        <div class="owl-carousel header-carousel position-relative mb-5">
+            <div class="owl-carousel-item position-relative">
+                <img  height="600px" src="./img/carousel-3.jpg" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" >
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-10 col-lg-8 border-me">
+                                <!-- <h5 class="text-white text-uppercase mb-3 animated slideInDown">Transport & Logistics Solution</h5> -->
+                                <h1 class="display-3 text-white animated slideInDown mb-4 lang" key="carousel">Place for your logistics solution</h1>
+                                <p class="fs-5 fw-medium text-white mb-2 pb-2"></p>
+                                <!-- <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
+                                <a href="" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Free Quote</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel-item position-relative">
+                <img height="600px" src="img/carousel-4.jpg" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" >
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-10 col-lg-8 border-me">
+                                <!-- <h5 class="text-white text-uppercase mb-3 animated slideInDown">Transport & Logistics Solution</h5> -->
+                                <h1 class="display-3 text-white animated slideInDown mb-4 lang" key="carousel">Place for your logistics solution</h1>
+                                <p class="fs-5 fw-medium text-white mb-2 pb-2"></p>
+                                <!-- <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
+                                <a href="" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Free Quote</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel-item position-relative">
+                <img height="600px" src="img/carousel-5.jpg" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" >
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-10 col-lg-8 border-me">
+                                <!-- <h5 class="text-white text-uppercase mb-3 animated slideInDown">Transport & Logistics Solution</h5> -->
+                                <h1 class="display-3 text-white animated slideInDown mb-4 lang" key="carousel">Place for your logistics solution</h1>
+                                <p class="fs-5 fw-medium text-white mb-2 pb-2"></p>
+                                <!-- <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
+                                <a href="" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Free Quote</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Carousel End -->
+
+
+    <!-- About Start -->
+    <div class="container-fluid overflow-hidden py-5 px-lg-0">
+        <div class="container about py-5 px-lg-0">
+            <div class="row g-5 mx-lg-0">
+                <div class="col-lg-6 ps-lg-0 wow fadeInLeft" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute img-fluid w-100 h-100" src="./img/about4.jpg" style="object-fit: cover;" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 about-text wow fadeInUp" data-wow-delay="0.3s">
+                    <h1 class="mb-5 lang" key="about">About us</h1>
+                    <p class="mb-6 lang" key="aboutUs">NBM Japan LLC is a young company that was founded in 2022 and is headquartered in the port city of Osaka. Despite its recent opening, our staff comprises specialists with a decade of hands-on experience in this field in Japan. We are closely familiar with supply and logistics chains, the auction system and our main goal is to deliver the selected products to the customer as quickly as possible, while keeping prices affordable for everyone.
+                        </p>
+                    
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="row g-4 mb-5 px-5">
+        <h5 class="mb-5 lang" key="enlist">Enlist the support of NBM Japan LLC experts and don’t worry about the shipping and customs clearance of your order, since we work:</h5>
+            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
+                <i class="bi bi-star-fill fa-3x text-primary mb-3"></i>
+                <h5 class="lang" key="profess">Professionally</h5>
+                <p class="m-0 lang" key="staff">Our staff is competent and experienced with shipping orders of various types and sizes from Japan to practically every country</p>
+            </div>
+            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.7s">
+                <i class="bi bi-person-check-fill fa-3x text-primary mb-3"></i>
+                <h5 class="lang" key="resp">Responsibly</h5>
+                <p class="m-0 lang" key="work">We work on every order with care and attention, closely verifying the compliance of the goods with the sales inquiry and agreement, down to the smallest detail</p>
+            </div>
+            <div class="col-sm-6 wow fadeIn "  data-wow-delay="0.7s">
+                <i class="fa fa-shipping-fast fa-3x text-primary mb-3"></i>
+                <h5 class="lang" key="quick1">Quickly</h5>
+                <p class="m-0 lang" key="thanks">Thanks to our experience, the orders are shipped out without any delays and promptly cleared at customs</p>
+            </div>
+            <div class="col-sm-6 wow fadeIn "  data-wow-delay="0.7s">
+                <i class="bi bi-piggy-bank-fill fa-3x text-primary mb-3"></i>
+                <h5 class="lang" key="inexp">Inexpensively</h5>
+                <p class="m-0 lang" key="loyal">A loyal pricing policy is one of our key priorities</p>
+            </div>
+            <h5 class="lang" key="ordering">When ordering auto parts and other auto goods from NBM Japan LLC, you can be assured of their top-notch quality, excellent performance and effectiveness!</h5>
+        </div>
+    <!-- About End -->
+
+    <!-- Table Start -->
+<div>
+    <h3 class="mb-5 px-5 lang" key="detail">Company details</h1>
+
+<table class="table">
+	<thead>
+		<tr>
+			<th class="lang" key="permit">Antique permit</th>
+			<th class="lang" key="osaka">Osaka Chamber of Commerce and Industry</th>
+			<th class="lang" key="lang1">Languages</th> 
+
+			
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Osaka Public Safety Commission  No. 62120R041510</td>
+			<td>K-01-00137584</td>
+			<td class="lang" key="lang2">Japan, english, russian</td>
+
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<!-- Table End -->
+
+
+    <!-- Fact Start -->
+    <!-- <div class="container-xxl py-5">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="text-secondary text-uppercase mb-3">Some Facts</h6>
+                    <h1 class="mb-5">#1 Place To Manage All Of Your Shipments</h1>
+                    <p class="mb-5">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                    <div class="d-flex align-items-center">
+                        <i class="fa fa-headphones fa-2x flex-shrink-0 bg-primary p-3 text-white"></i>
+                        <div class="ps-4">
+                            <h6>Call for any query!</h6>
+                            <h3 class="text-primary m-0">+012 345 6789</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row g-4 align-items-center">
+                        <div class="col-sm-6">
+                            <div class="bg-primary p-4 mb-4 wow fadeIn" data-wow-delay="0.3s">
+                                <i class="fa fa-users fa-2x text-white mb-3"></i>
+                                <h2 class="text-white mb-2" data-toggle="counter-up">1234</h2>
+                                <p class="text-white mb-0">Happy Clients</p>
+                            </div>
+                            <div class="bg-secondary p-4 wow fadeIn" data-wow-delay="0.5s">
+                                <i class="fa fa-ship fa-2x text-white mb-3"></i>
+                                <h2 class="text-white mb-2" data-toggle="counter-up">1234</h2>
+                                <p class="text-white mb-0">Complete Shipments</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="bg-success p-4 wow fadeIn" data-wow-delay="0.7s">
+                                <i class="fa fa-star fa-2x text-white mb-3"></i>
+                                <h2 class="text-white mb-2" data-toggle="counter-up">1234</h2>
+                                <p class="text-white mb-0">Customer Reviews</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Fact End -->
+
+
+    <!-- Service Start -->
+    <div class="container-xxl py-5">
+        <div class="container py-5">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <!-- <h6 class="text-secondary text-uppercase">Our Services</h6> -->
+                <h1 class="mb-5 lang" key="services">Our Services</h1>
+                <!-- <h3 class="text-uppercase ">We offer an extensive range of services. We can help you find the product you need from the following categories:</h3> -->
+
+            </div>
+            <div class="row g-4 mb-5">
+                <!-- <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="img/service-1.jpg" alt="">
+                        </div>
+                        <h4 class="mb-3">Engine oils of all kinds, transmission and brake fluids, hydraulic oils</h4>
+                        <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
+                        <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Read More</span></a>
+                    </div>
+                </div> -->
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img height="200px" width="300px" src="img/service-1.jpg" alt="">
+                        </div>
+                        <h4 class="mb-3 serv lang" key="oil">Motor oils</h4>
+                        <!-- <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p> -->
+                        <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span class="lang" key="explore">Read More</span></a>
+                    </div>
+                </div>
+                <!-- <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="service-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="img/service-3.jpg" alt="">
+                        </div>
+                        <h4 class="mb-3">Original equipment manufacturer oils (OEM-oils)</h4>
+                        <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
+                        <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Read More</span></a>
+                    </div>
+                </div> -->
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img height="200px" width="300px" src="./img/about2.jpg" alt="">
+                        </div>
+                        <h4 class="mb-3 serv lang" key="parts1">Auto parts</h4>
+                        <!-- <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p> -->
+                        <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span class="lang" key="explore">Read More</span></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img height="200px" width="300px" src="img/service-5.jpg" alt="">
+                        </div>
+                        <h4 class="mb-3 serv lang" key="tires1">Tires</h4>
+                        <!-- <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p> -->
+                        <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span class="lang" key="explore">Read More</span></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="service-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img height="200px" width="300px" src="img/service-6.jpg" alt="">
+                        </div>
+                        <h4 class="mb-3 serv lang" key="goods">Goods from auctions</h4>
+                        <!-- <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p> -->
+                        <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span class="lang" key="explore">Read More</span></a>
+                    </div>
+                </div>
+            <!-- <h4 class="text-uppercase col-md-11">Our experts have access to numerous car auctions where we can choose the best automobile for our client. We work with both new and used autos. NBM Japan LLC is also happy to offer:</h4> -->
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="service-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img height="200px" width="300px" src="./img/logistic1.jpg" alt="">
+                        </div>
+                        <h4 class="mb-3 serv lang" key="logi">Logistic </h4>
+                        <!-- <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p> -->
+                        <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span class="lang" key="explore">Read More</span></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="service-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img height="200px" width="300px" src="./img/consulting.jpg" alt="">
+                        </div>
+                        <h4 class="mb-3 serv lang" key="cons">Consulting </h4>
+                        <!-- <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p> -->
+                        <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span class="lang" key="explore">Read More</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+    <!-- Feature Start -->
+    <!-- <div class="container-fluid overflow-hidden py-5 px-lg-0">
+        <div class="container feature py-5 px-lg-0">
+            <div class="row g-5 mx-lg-0">
+                <div class="col-lg-6 feature-text wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="text-secondary text-uppercase mb-3">Our Features</h6>
+                    <h1 class="mb-5">We Are Trusted Logistics Company Since 1990</h1>
+                    <div class="d-flex mb-5 wow fadeInUp" data-wow-delay="0.3s">
+                        <i class="fa fa-globe text-primary fa-3x flex-shrink-0"></i>
+                        <div class="ms-4">
+                            <h5>Worldwide Service</h5>
+                            <p class="mb-0">Diam dolor ipsum sit amet eos erat ipsum lorem sed stet lorem sit clita duo justo magna erat amet</p>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-5 wow fadeIn" data-wow-delay="0.5s">
+                        <i class="fa fa-shipping-fast text-primary fa-3x flex-shrink-0"></i>
+                        <div class="ms-4">
+                            <h5>On Time Delivery</h5>
+                            <p class="mb-0">Diam dolor ipsum sit amet eos erat ipsum lorem sed stet lorem sit clita duo justo magna erat amet</p>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-0 wow fadeInUp" data-wow-delay="0.7s">
+                        <i class="fa fa-headphones text-primary fa-3x flex-shrink-0"></i>
+                        <div class="ms-4">
+                            <h5>24/7 Telephone Support</h5>
+                            <p class="mb-0">Diam dolor ipsum sit amet eos erat ipsum lorem sed stet lorem sit clita duo justo magna erat amet</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 pe-lg-0 wow fadeInRight" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/feature.jpg" style="object-fit: cover;" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Feature End -->
+
+
+    <!-- Pricing Start -->
+    <!-- <div class="container-xxl py-5">
+        <div class="container py-5">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="text-secondary text-uppercase">Pricing Plan</h6>
+                <h1 class="mb-5">Perfect Pricing Plan</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="price-item">
+                        <div class="border-bottom p-4 mb-4">
+                            <h5 class="text-primary mb-1">Basic Plan</h5>
+                            <h1 class="display-5 mb-0">
+                                <small class="align-top" style="font-size: 22px; line-height: 45px;">$</small>49.00<small
+                                    class="align-bottom" style="font-size: 16px; line-height: 40px;">/ Month</small>
+                            </h1>
+                        </div>
+                        <div class="p-4 pt-0">
+                            <p><i class="fa fa-check text-success me-3"></i>HTML5 & CSS3</p>
+                            <p><i class="fa fa-check text-success me-3"></i>Bootstrap v5</p>
+                            <p><i class="fa fa-check text-success me-3"></i>FontAwesome Icons</p>
+                            <p><i class="fa fa-check text-success me-3"></i>Responsive Layout</p>
+                            <p><i class="fa fa-check text-success me-3"></i>Cross-browser Support</p>
+                            <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span >Order Now</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="price-item">
+                        <div class="border-bottom p-4 mb-4">
+                            <h5 class="text-primary mb-1">Standard Plan</h5>
+                            <h1 class="display-5 mb-0">
+                                <small class="align-top" style="font-size: 22px; line-height: 45px;">$</small>99.00<small
+                                    class="align-bottom" style="font-size: 16px; line-height: 40px;">/ Month</small>
+                            </h1>
+                        </div>
+                        <div class="p-4 pt-0">
+                            <p><i class="fa fa-check text-success me-3"></i>HTML5 & CSS3</p>
+                            <p><i class="fa fa-check text-success me-3"></i>Bootstrap v5</p>
+                            <p><i class="fa fa-check text-success me-3"></i>FontAwesome Icons</p>
+                            <p><i class="fa fa-check text-success me-3"></i>Responsive Layout</p>
+                            <p><i class="fa fa-check text-success me-3"></i>Cross-browser Support</p>
+                            <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span >Order Now</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="price-item">
+                        <div class="border-bottom p-4 mb-4">
+                            <h5 class="text-primary mb-1">Advanced Plan</h5>
+                            <h1 class="display-5 mb-0">
+                                <small class="align-top" style="font-size: 22px; line-height: 45px;">$</small>149.00<small
+                                    class="align-bottom" style="font-size: 16px; line-height: 40px;">/ Month</small>
+                            </h1>
+                        </div>
+                        <div class="p-4 pt-0">
+                            <p><i class="fa fa-check text-success me-3"></i>HTML5 & CSS3</p>
+                            <p><i class="fa fa-check text-success me-3"></i>Bootstrap v5</p>
+                            <p><i class="fa fa-check text-success me-3"></i>FontAwesome Icons</p>
+                            <p><i class="fa fa-check text-success me-3"></i>Responsive Layout</p>
+                            <p><i class="fa fa-check text-success me-3"></i>Cross-browser Support</p>
+                            <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span >Order Now</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Pricing End -->
+
+
+    <!-- Quote Start -->
+    <!-- <div class="container-xxl py-5">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="text-secondary text-uppercase mb-3">Get A Quote</h6>
+                    <h1 class="mb-5">Request A Free Qoute!</h1>
+                    <p class="mb-5">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat amet</p>
+                    <div class="d-flex align-items-center">
+                        <i class="fa fa-headphones fa-2x flex-shrink-0 bg-primary p-3 text-white"></i>
+                        <div class="ps-4">
+                            <h6>Call for any query!</h6>
+                            <h3 class="text-primary m-0">+012 345 6789</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="bg-light text-center p-5 wow fadeIn" data-wow-delay="0.5s">
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control border-0" placeholder="Your Name" style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="email" class="form-control border-0" placeholder="Your Email" style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control border-0" placeholder="Your Mobile" style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <select class="form-select border-0" style="height: 55px;">
+                                        <option selected>Select A Freight</option>
+                                        <option value="1">Freight 1</option>
+                                        <option value="2">Freight 2</option>
+                                        <option value="3">Freight 3</option>
+                                    </select>
+                                </div>
+                                <div class="col-12">
+                                    <textarea class="form-control border-0" placeholder="Special Note"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-primary w-100 py-3" type="submit">Submit</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Quote End -->
+
+
+    <!-- Team Start -->
+    <!-- <div class="container-xxl py-5">
+        <div class="container py-5">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="text-secondary text-uppercase">Our Team</h6>
+                <h1 class="mb-5">Expert Team Members</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="img/team-1.jpg" alt="">
+                        </div>
+                        <h5 class="mb-0">Full Name</h5>
+                        <p>Designation</p>
+                        <div class="btn-slide mt-1">
+                            <i class="fa fa-share"></i>
+                            <span>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="img/team-2.jpg" alt="">
+                        </div>
+                        <h5 class="mb-0">Full Name</h5>
+                        <p>Designation</p>
+                        <div class="btn-slide mt-1">
+                            <i class="fa fa-share"></i>
+                            <span>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="img/team-3.jpg" alt="">
+                        </div>
+                        <h5 class="mb-0">Full Name</h5>
+                        <p>Designation</p>
+                        <div class="btn-slide mt-1">
+                            <i class="fa fa-share"></i>
+                            <span>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.9s">
+                    <div class="team-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="img/team-4.jpg" alt="">
+                        </div>
+                        <h5 class="mb-0">Full Name</h5>
+                        <p>Designation</p>
+                        <div class="btn-slide mt-1">
+                            <i class="fa fa-share"></i>
+                            <span>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Team End -->
+
+
+    <!-- Testimonial Start -->
+    <!-- <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="text-center">
+                <h6 class="text-secondary text-uppercase">Testimonial</h6>
+                <h1 class="mb-0">Our Clients Say!</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+                <div class="testimonial-item p-4 my-5">
+                    <i class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"></i>
+                    <div class="d-flex align-items-end mb-4">
+                        <img class="img-fluid flex-shrink-0" src="img/testimonial-1.jpg" style="width: 80px; height: 80px;">
+                        <div class="ms-4">
+                            <h5 class="mb-1">Client Name</h5>
+                            <p class="m-0">Profession</p>
+                        </div>
+                    </div>
+                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                </div>
+                <div class="testimonial-item p-4 my-5">
+                    <i class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"></i>
+                    <div class="d-flex align-items-end mb-4">
+                        <img class="img-fluid flex-shrink-0" src="img/testimonial-2.jpg" style="width: 80px; height: 80px;">
+                        <div class="ms-4">
+                            <h5 class="mb-1">Client Name</h5>
+                            <p class="m-0">Profession</p>
+                        </div>
+                    </div>
+                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                </div>
+                <div class="testimonial-item p-4 my-5">
+                    <i class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"></i>
+                    <div class="d-flex align-items-end mb-4">
+                        <img class="img-fluid flex-shrink-0" src="img/testimonial-3.jpg" style="width: 80px; height: 80px;">
+                        <div class="ms-4">
+                            <h5 class="mb-1">Client Name</h5>
+                            <p class="m-0">Profession</p>
+                        </div>
+                    </div>
+                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                </div>
+                <div class="testimonial-item p-4 my-5">
+                    <i class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"></i>
+                    <div class="d-flex align-items-end mb-4">
+                        <img class="img-fluid flex-shrink-0" src="img/testimonial-4.jpg" style="width: 80px; height: 80px;">
+                        <div class="ms-4">
+                            <h5 class="mb-1">Client Name</h5>
+                            <p class="m-0">Profession</p>
+                        </div>
+                    </div>
+                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Testimonial End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 wow fadeIn" data-wow-delay="0.1s" style="margin-top: 6rem;">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4 lang" key="addr">Address</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i><a>536-0021</a> Osaka, Joto-ku, Suwa, 1-8-19</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>Mob: <a>+81 90-7756-8027</a></p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>Mob: <a>+81 80-8324-4120</a></p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>Mob: <a>+81 90-9542-7552</a></p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>Phone: <a>06-7712-8163</a></p>
+                    <p class="mb-2"><i class="fa fa-fax me-3"></i>Fax: <a>06-7635-8363</a></p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@nbmjapan.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="bi bi-instagram"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4 lang" key="services">Our services</h4>
+                    <a class="btn btn-link lang" key="air" href="">Air freight</a>
+                    <a class="btn btn-link lang" key="sea" href="">Sea freight</a>
+                    <a class="btn btn-link lang" key="road" href="">Road freight</a>
+                    <a class="btn btn-link lang" key="log" href="">Logistic solutions</a>
+                    <a class="btn btn-link lang" key="indust" href="">Industry solutions</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4 lang" key="quick">Quick links</h4>
+                    <a class="btn btn-link lang" key="about" href="about.html">About</a>
+                    <a class="btn btn-link lang" key="contact" href="contact.html">Contact us</a>
+                    <a class="btn btn-link lang" key="services" href="">Our services</a>
+                </div>
+                <!-- <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Newsletter</h4>
+                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">NBM Japan LLC</a>, All Right Reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
+                        </br>Distributed By <a class="border-bottom" href="https://themewagon.com" target="_blank">ThemeWagon</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
